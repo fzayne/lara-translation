@@ -1,0 +1,24 @@
+{
+    "name": "fzayne/lara-translation",
+    "description": "A Laravel package to extract translation keys from source files and export them into a dedicated translation file.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fzayne\\LaraTranslation\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fzayne\\LaraTranslation\\LaraTranslationServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "fzayne"
+        }
+    ],
+    "require": {}
+}
